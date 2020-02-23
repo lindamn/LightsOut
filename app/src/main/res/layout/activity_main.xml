@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/light44"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light43"
+        app:layout_constraintTop_toBottomOf="@+id/light34" />
+
+    <TextView
+        android:id="@+id/light43"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/light44"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light42"
+        app:layout_constraintTop_toBottomOf="@+id/light33" />
+
+    <TextView
+        android:id="@+id/light42"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/light43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light41"
+        app:layout_constraintTop_toBottomOf="@+id/light32" />
+
+    <TextView
+        android:id="@+id/light41"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/light42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light40"
+        app:layout_constraintTop_toBottomOf="@+id/light31" />
+
+    <TextView
+        android:id="@+id/light40"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/light41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light30" />
+
+    <TextView
+        android:id="@+id/light34"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light33"
+        app:layout_constraintTop_toBottomOf="@+id/light24" />
+
+    <TextView
+        android:id="@+id/light33"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light43"
+        app:layout_constraintEnd_toStartOf="@+id/light34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light32"
+        app:layout_constraintTop_toBottomOf="@+id/light23" />
+
+    <TextView
+        android:id="@+id/light32"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light42"
+        app:layout_constraintEnd_toStartOf="@+id/light33"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light31"
+        app:layout_constraintTop_toBottomOf="@+id/light22" />
+
+    <TextView
+        android:id="@+id/light31"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light41"
+        app:layout_constraintEnd_toStartOf="@+id/light32"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light30"
+        app:layout_constraintTop_toBottomOf="@+id/light21" />
+
+    <TextView
+        android:id="@+id/light30"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light40"
+        app:layout_constraintEnd_toStartOf="@+id/light31"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light20" />
+
+    <TextView
+        android:id="@+id/light24"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light23"
+        app:layout_constraintTop_toBottomOf="@+id/light14" />
+
+    <TextView
+        android:id="@+id/light23"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light33"
+        app:layout_constraintEnd_toStartOf="@+id/light24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light22"
+        app:layout_constraintTop_toBottomOf="@+id/light13" />
+
+    <TextView
+        android:id="@+id/light22"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light32"
+        app:layout_constraintEnd_toStartOf="@+id/light23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light21"
+        app:layout_constraintTop_toBottomOf="@+id/light12" />
+
+    <TextView
+        android:id="@+id/light21"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light31"
+        app:layout_constraintEnd_toStartOf="@+id/light22"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light20"
+        app:layout_constraintTop_toBottomOf="@+id/light11" />
+
+    <TextView
+        android:id="@+id/light20"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light30"
+        app:layout_constraintEnd_toStartOf="@+id/light21"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light10" />
+
+    <TextView
+        android:id="@+id/light14"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light13"
+        app:layout_constraintTop_toBottomOf="@+id/light04" />
+
+    <TextView
+        android:id="@+id/light13"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light23"
+        app:layout_constraintEnd_toStartOf="@+id/light14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light12"
+        app:layout_constraintTop_toBottomOf="@+id/light03" />
+
+    <TextView
+        android:id="@+id/light12"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light22"
+        app:layout_constraintEnd_toStartOf="@+id/light13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light11"
+        app:layout_constraintTop_toBottomOf="@+id/light02" />
+
+    <TextView
+        android:id="@+id/light11"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light21"
+        app:layout_constraintEnd_toStartOf="@+id/light12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light10"
+        app:layout_constraintTop_toBottomOf="@+id/light01" />
+
+    <TextView
+        android:id="@+id/light10"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light20"
+        app:layout_constraintEnd_toStartOf="@+id/light11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light00" />
+
+    <TextView
+        android:id="@+id/light04"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light03"
+        app:layout_constraintTop_toBottomOf="@+id/move_count" />
+
+    <TextView
+        android:id="@+id/light03"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light13"
+        app:layout_constraintEnd_toStartOf="@+id/light04"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light02"
+        app:layout_constraintTop_toBottomOf="@+id/move_count" />
+
+    <TextView
+        android:id="@+id/light02"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light12"
+        app:layout_constraintEnd_toStartOf="@+id/light03"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light01"
+        app:layout_constraintTop_toBottomOf="@+id/move_count" />
+
+    <TextView
+        android:id="@+id/light01"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light11"
+        app:layout_constraintEnd_toStartOf="@+id/light02"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/light00"
+        app:layout_constraintTop_toBottomOf="@+id/move_count" />
+
+    <TextView
+        android:id="@+id/light00"
+        style="@style/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="true"
+        android:padding="24sp"
+        android:textSize="0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/light10"
+        app:layout_constraintEnd_toStartOf="@+id/light01"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/move_count" />
+
+    <EditText
+        android:id="@+id/enter_name"
+        style="@style/DefaultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:includeFontPadding="false"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_name" />
+
+    <TextView
+        android:id="@+id/name_view"
+        style="@style/DefaultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+        app:fontFamily="@font/roboto_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/enter_name" />
+
+    <TextView
+        android:id="@+id/move_count"
+        style="@style/DefaultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/move_count"
+        android:visibility="gone"
+        app:fontFamily="@font/roboto_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_view" />
+
+    <TextView
+        android:id="@+id/no_of_views"
+        style="@style/DefaultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/no_of_views"
+        android:visibility="gone"
+        app:fontFamily="@font/roboto_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/move_count"
+        app:layout_constraintTop_toBottomOf="@+id/name_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
