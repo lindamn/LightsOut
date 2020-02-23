@@ -4,4 +4,5 @@
     <string name="start">Start</string>
     <string name="move_count">Move Count:</string>
     <string name="no_of_views">0</string>
+    <string name="reset">Reset</string>
 </resources>

@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-        Toast.makeText(this, "Congratulations! Finished after " + moveCount.text.toString() + " moves.", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Congratulations " + findViewById<TextView>(R.id.enter_name).text.toString() + "! Finished after " + moveCount.text.toString() + " moves.", Toast.LENGTH_LONG).show()
     }
 
     private fun addName(startButton: View){
@@ -137,6 +137,8 @@ class MainActivity : AppCompatActivity() {
         light43.visibility = View.VISIBLE
         light44.visibility = View.VISIBLE
 
+        reset.visibility = View.VISIBLE
+
         setLights()
     }
 
@@ -166,6 +168,17 @@ class MainActivity : AppCompatActivity() {
         this.lights[4][2] = (R.id.light42)
         this.lights[4][3] = (R.id.light43)
         this.lights[4][4] = (R.id.light44)
+    }
+
+    private fun resetBoard(view: View){
+        for(i in 0..4){
+            for(j in 0..4){
+                findViewById<TextView>(lights[i][j]).setBackgroundColor(Color.GRAY)
+                lightsFlag[i][j] = false
+            }
+        }
+        val temp = 0
+        findViewById<TextView>(R.id.no_of_views).text = temp.toString()
     }
 
     private fun setListeners(){
@@ -213,6 +226,11 @@ class MainActivity : AppCompatActivity() {
             item.setOnClickListener{pressLight(it)}
         }
 
+        val reset = findViewById<Button>(R.id.reset)
+
+        reset.setOnClickListener{
+            resetBoard(it)
+        }
 
     }
 }
